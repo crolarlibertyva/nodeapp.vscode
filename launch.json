@@ -45,6 +45,12 @@
       "skipFiles": [
         "<node_internals>/**"
       ]
+    },
+    {
+      "command": "npm run-script start-dev",
+      "name": "Run npm start",
+      "request": "launch",
+      "type": "node-terminal"
     }
   ]
 }
